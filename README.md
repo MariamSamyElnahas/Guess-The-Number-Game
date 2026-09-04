@@ -8,4 +8,6 @@ The game generates a random number between **1 and 100**, and the player tries t
 
 The game also includes a **guess history table** that records each attempt and its result, making it easy for the player to track their previous guesses.
 
+
+
 <img width="1358" height="610" alt="GuessTheNumber" src="https://github.com/user-attachments/assets/aea2a91c-3f02-4b45-ade3-ab65b01caf6d" />
