@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Jersey+10+Charted&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Sriracha&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Stranger Gusses</title>
+</head>
+
+<body>
+    <section class="card">
+        <div class="title">
+            <div class="heading">
+                <h1 class="stranger">STRANGER</h1>
+                <h1 class="guess">GUESSES</h1>
+            </div>
+            <div id="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="3">Transformation History</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        <tr>
+                            <!-- <td>Attempt 03</td>
+                        <td>24</td>
+                        <td>too low</td> -->
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="par">
+
+            <p class="topP">Can You Find The Hidden Frequency?</p>
+            <p class="botP">A NUMBER IS TRAPPED BETWEEN DIMENTIONS. GUESS A DIGIT FROM 1 T0 100 TO PULL IT BACK FROM THE
+                UPSIDE DOWN. BE CAREFUL __ THE SHADOWS ARE WATCHING.</p>
+        </div>
+        
+        <div class="inputStyle">
+
+            <input type="number" id="inputTxt" placeholder="???">
+
+            <span id="outputTxt">
+                Waiting For Your Signal...
+            </span>
+
+            <div class="buttons">
+
+                <button id="check">ENTER VOID</button>
+
+                <button id="restart">RESET</button>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <div class="winCard" id="winCard">
+
+        <div class="winContent">
+
+            <h2>THE GATE HAS OPENED</h2>
+
+            <p class="quote">
+                You found the hidden frequency.
+                The signal has returned from the Upside Down.
+            </p>
+
+            <div class="stats">
+
+                <p>You Guessed it in Attempts: <span id="finalAttempts"></span></p>
+
+            </div>
+
+            <button id="playAgain">PLAY AGAIN</button>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
